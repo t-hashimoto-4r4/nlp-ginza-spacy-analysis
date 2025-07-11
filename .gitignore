@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+ginza_env/
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 分析結果（サイズが大きくなる可能性）
+analysis_results/*.json
+
+# 一時ファイル
+*.tmp
+*.log
+
+# 自分独自環境
+ginza_env/
+ginza_env310/
+ginza_env_jupiter310/
+ginza_env_jupiter310.bkbk/
+typescript
+
+
